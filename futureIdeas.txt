@@ -1,0 +1,15 @@
+Future iteas
+
+1.Change designe
+2.Create login for customers
+3.Create login for Admin where he can see orderes, delete old orderes, add new item, change if they are availabler or not an which item is shown on recomended, also alow him to send mail to newsletter mails that subscrived!
+
+
+Filip ;)
+
+gueryparametars
+deffer
+useActionData
+
+
+errornewslatter

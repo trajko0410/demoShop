@@ -1,0 +1,1 @@
+Mozes model, color, i sada kada napravim ya slider da napravis samo jedan fajl koji ce loadovati datu i poslati dalje dole.

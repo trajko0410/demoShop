@@ -1,0 +1,89 @@
+
+.modalContainer{
+  background-color: #00000075;
+  backdrop-filter: blur(3px);  
+  
+  position: fixed;
+  top: 50px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.modalContainer .notActive{
+  display: none;
+}
+
+.modalContainer .modal{
+  padding: 1rem;
+  margin: 1rem;
+  
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+  width: 400px;
+  height: 200px;
+  background-color: whitesmoke;
+  z-index: 101;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px -2px rgba(92,92,92);
+  align-items: center;
+
+  
+}
+
+
+a{ text-decoration: none;}
+.modalContainer .modal h3 {
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Rubik",sans-serif;
+  color: rgb(92, 92, 92);
+  font-weight: 500;
+}
+
+.modalContainer .modal .buttonContainer{
+  width: 60%;
+}
+
+.modalContainer .modal .button{
+  height: 33px;
+    text-decoration: none;
+    display: flex;
+    text-decoration: none;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4453d;
+    background: #e4453d;
+    box-shadow: 0 2px 4px -2px #f15249;
+    border-radius: 4px;
+    transition: .2s;
+    border: 1px solid transparent;
+    color: #fff;
+    font-family: "Rubik",sans-serif;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    white-space: nowrap;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+
+   
+  
+}
+
+.modalContainer .modal .button:hover{
+  background-color:#f15249;
+  transition: 0.3s;
+  border:#e4453d solid 1px;
+
+}
